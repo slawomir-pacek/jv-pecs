@@ -3,7 +3,8 @@ package core.mate.academy.model;
 public class Truck extends Machine {
     private int loadCapacity;
 
-    public Truck() {}
+    public Truck() {
+    }
 
     public Truck(String name, String color, int loadCapacity) {
         setName(name);
@@ -24,3 +25,4 @@ public class Truck extends Machine {
         System.out.println("Truck " + getName() + " started transporting.");
     }
 }
+

@@ -35,4 +35,3 @@ public class Bulldozer extends Machine {
         System.out.println("Bulldozer " + getName() + " started pushing soil.");
     }
 }
-
