@@ -4,7 +4,8 @@ public class Bulldozer extends Machine {
     private int bladeWidth;
     private double weight;
 
-    public Bulldozer() {}
+    public Bulldozer() {
+    }
 
     public Bulldozer(String name, String color, int bladeWidth, double weight) {
         setName(name);
